@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
     
     @objc func changePick() {
-       
+       // var isLilzey = true burda yazarsak bunu butona her tıkladığımızda true olucak o yüzden hiç false olmayacak 
         
         if isLilzey == true {
             gorselTik.image = UIImage(named: "shakira")
